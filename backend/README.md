@@ -27,13 +27,13 @@ OrganizeMe é um site simples e intuitivo de gerenciamento de tarefas (To Do Lis
   3. Configure as variáveis de ambiente:
     Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
     ```sh
-       JWT_SECRET=secret
-       PORT=3000
-       DB_NAME=organizeme
-       DB_USER=root
-       DB_PASS=123456DB_HOST=localhost
-       DB_PORT=3306
-       NODE_ENV=prod
+         JWT_SECRET=secret
+         PORT=3000
+         DB_NAME=organizeme
+         DB_USER=root
+         DB_PASS=123456DB_HOST=localhost
+         DB_PORT=3306
+         NODE_ENV=prod
     ```
     ⚠️ Ajuste as informações do banco de dados conforme sua configuração local.
   4. Configure o banco de dados:
