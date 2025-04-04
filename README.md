@@ -35,7 +35,18 @@ OrganizeMe/
 
 ##  Documentação
 
-A documentação completa do projeto está na pasta `docs/`, incluindo:
+### Modelo Entidade-Relacionamento (DER)
+![Diagrama DER](https://github.com/KemilyRezende/OrganizeMe/blob/main/docs/DER.png)
+
+### Fluxo de Atividades
+![Fluxo de Atividades](https://github.com/KemilyRezende/OrganizeMe/blob/main/docs/Diagrama.png)
+
+### Descrição das Tabelas do Banco de Dados
+[Descrição das Tabelas do Banco de Dados](https://github.com/KemilyRezende/OrganizeMe/blob/main/docs/descricao_tabelas_bd.md)
+
+### Capturas de Tela
+
+As capturas de tela da aplicação web e mobile podem ser encontradas na pasta `/telas` no diretório raiz do projeto.
 
 ## Como Executar
 
