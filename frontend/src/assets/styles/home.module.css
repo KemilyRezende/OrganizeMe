@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    height: 40vh;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: #0D1544;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: -1vh;
+}
+
+.me{
+    color: #078FC8;
+}
+
+.buttonBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    gap: 2vh;
+}
+
+@media (min-width: 700px){
+    .name{
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1000px){
+    .name{
+        font-size: 50px;
+    }
+    .logo{
+        height: 47vh;
+    }
+}

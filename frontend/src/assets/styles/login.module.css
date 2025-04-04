@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    height: 95vh;
+    width: 100vw;
+}
+
+.boxLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo{
+    height: 30vh;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    color: #0D1544;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: -1vh;
+}
+
+.me{
+    color: #078FC8;
+}
+
+.boxForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.boxButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1vh;
+}
+
+.link{
+    color: #0E1648;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.link:hover{
+    color: #078FC8;
+    cursor: pointer;
+    transition: 4ms;
+}
+
+@media (min-width: 700px){
+    .logo{
+        height: 33vh;
+    }
+    .name{
+        font-size: 55px;
+    }
+    .link{
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 1000px){
+    .box{
+        gap: 1.5vh;
+    }
+    .boxLogo{
+        gap:1vh;
+    }
+    .boxForm{
+        gap: 1vh;
+    }
+    .boxButton{
+        gap: 0.7vh;
+    }
+    .logo{
+        height: 30vh;
+    }
+    .name{
+        font-size: 35px;
+    }
+    .link{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px){
+    .link{
+        font-size: 25px;
+    }
+}

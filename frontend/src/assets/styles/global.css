@@ -1,0 +1,53 @@
+.big{
+    height: 7vh;
+    width: 70vw;
+    font-size: 22px;
+}
+
+.small{
+    height: 5.5vh;
+    width: 50vw;
+    font-size: 20px;
+}
+
+@media (min-width: 700px){
+    .big{
+        width: 65vw;
+        font-size: 35px;
+    }
+    .small{
+        height: 6vh;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1000px){
+    .big{
+        height: 8.5vh;
+        width: 38vw;
+        font-size: 30px;
+    }
+    .small{
+        width: 30vw;
+        height: 7.2vh;
+        font-size: 27px;
+    }
+}
+
+@media(min-width: 1200px){
+    .big{
+        font-size: 25px;
+        width: 25vw;
+    }
+    .small{
+        width: 15vw;
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 2000px){
+    .big{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
